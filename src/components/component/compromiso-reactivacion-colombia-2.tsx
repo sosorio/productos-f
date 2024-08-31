@@ -40,32 +40,69 @@ export function CompromisoReactivacionColombia() {
             Línea de crédito directo con tasa compensada que busca apoyar a las Entidades Territoriales con recursos para aliviar la presión originada en la reducción de los ingresos causada por el Covid – 19 e impulsar la reactivación de la actividad económica en los territorios.  Vigencia de la Línea. Hasta agotar los recursos.
             </p>
           </div>
-          <div className="space-y-1">
-            <h3 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Condiciones de Línea
+          <div className="space-y-4">
+            <h3 className="mt-10 text-2xl font-bold tracking-tighter sm:text-2xl md:text-2xl">
+              Condiciones
             </h3>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            <strong>TASA: </strong>Para municipios de categoría 3, 4, 5 y 6, Departamentos 3 y 4 y Distritos de categoría 3, 4, 5 y 6:
-            IBR + 1,10% M.V. (Mensual Vencido) o IBR + 1,25% T.V. (Trimestral Vencido) o IBR + 1,45% S.V. (Semestral Vencido)
-            </p>
+            <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>TASA: </strong></h4>
+            <ul className="space-y-4"><li className="list-disc">Municipios de categoría 3, 4, 5 y 6, Departamentos 3 y 4 y Distritos de categoría 3, 4, 5 y 6:
+            IBR + 1,10% M.V. (Mensual Vencido) o IBR + 1,25% T.V. (Trimestral Vencido) o IBR + 1,45% S.V. (Semestral Vencido)</li>
+            <li className="list-disc">Para distritos especiales 1 y 2, Departamentos Especiales y de categoría 1 y 2 y Municipios Especiales y de categoría 1 y 2:
+            IBR + 1,60% M.V. (Mensual Vencido) o IBR + 1,75% T.V. (Trimestral Vencido) o IBR + 1,95% S.V. (Semestral Vencido)</li>
+            </ul>
+          </div>
+
+
+                    <div className="mt-20">
+                        <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Vigencia de la Línea: </strong></h4>
+            <p>Hasta agotar los recursos.</p>
+          </div>
+          <div className="mt-20">
+                        <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Plazo total: </strong></h4>
+            <p>Hasta diez (10) años con hasta 3 años de periodo de gracia a capital.</p>
+          </div>
+          <div className="mt-20">
+                        <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Beneficiarios: </strong></h4>
+            <p>Entidades Territoriales.</p>
+          </div>
+          <div className="mt-20">
+                        <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Uso de los recursos: </strong></h4>
+            <p>Financiación de proyectos y/o gastos de inversión.</p>
           </div>
         </div>
         <div className="space-y-4">
           <div className="space-y-2">
-            <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">Get started today</h2>
+            <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">Solicitar Crédito</h2>
             <p className="text-muted-foreground">
-              Fill out the form below to learn more about our conversion optimization services.
+            Uno de nuestros Gerentes de Cuenta se pondrá en contacto con usted.
+            Solicitudes únicamente para personas jurídicas.
             </p>
           </div>
           <form className="space-y-4">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <Input type="text" placeholder="First Name" className="w-full" />
-              <Input type="text" placeholder="Last Name" className="w-full" />
+              <Input type="text" placeholder="Nombre" className="w-full" />
+              <Input type="text" placeholder="Apellido" className="w-full" />
             </div>
-            <Input type="email" placeholder="Email Address" className="w-full" />
-            <Textarea placeholder="Tell us about your business" className="w-full" rows={4} />
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <Input type="email" placeholder="Email" className="w-full" />
+            <Input id="phone" type="tel" placeholder="Celular" />
+            </div>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <Input type="text" placeholder="Municipio" className="w-full" />
+              <Input type="text" placeholder="Departamento" className="w-full" />
+            </div>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <Input type="text" placeholder="Entidad" className="w-full" />
+              <Input type="text" placeholder="Cargo" className="w-full" />
+            </div>
+            <Textarea placeholder="Para que necesita los recursos,  sector, costo estimado de la inversion." className="w-full" rows={4} />
             <Button type="submit" className="w-full">
-              Get Started
+              Iniciar Proceso
             </Button>
           </form>
         </div>
