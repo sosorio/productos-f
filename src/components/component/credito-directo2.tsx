@@ -108,7 +108,7 @@ export function CreditoDirecto21() {
                 alt="Credito Directo"
                 className="mx-auto overflow-hidden rounded-xl object-bottom sm:w-full"
               />
-                <h3 className="text-lg font-bold text-center">Inversión Rural</h3>
+                <h3 className="text-lg font-bold text-center">Inversión Rural.</h3>
                 <p className="text-muted-foreground text-center">
                   Inversiones estratégicas en electrificación, equipos y maquinaria, transporte especializado, infraestructura de transformación y desarrollo de vías terciarias.<br/>$100.000 millones.
                 </p>
