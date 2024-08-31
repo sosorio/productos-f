@@ -45,7 +45,7 @@ export function CreditoDirecto2() {
             <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="grid gap-1">
               <img
-                src="compromiso-reactivacion-colombia-2.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/compromiso-reactivacion-colombia-2.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -74,7 +74,7 @@ export function CreditoDirecto2() {
               </div>
               <div className="grid gap-1">
               <img
-                src="catastro-multiproposito.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/catastro-multiproposito.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -102,7 +102,7 @@ export function CreditoDirecto2() {
                 </div>
               </div><div className="grid gap-1">
               <img
-                src="inversion-rural.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/inversion-rural.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -131,7 +131,7 @@ export function CreditoDirecto2() {
               </div>
               <div className="grid gap-1">
               <img
-                src="eficiencia-energetica.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/eficiencia-energetica.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -160,7 +160,7 @@ export function CreditoDirecto2() {
               </div>
               <div className="grid gap-1">
               <img
-                src="compromiso-valle-del-cauca.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/compromiso-valle-del-cauca.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -199,7 +199,7 @@ export function CreditoDirecto2() {
               El Credito Directo significa que no tiene intermediario financiero, por lo cual permite obtener mejores tasas de interes.   Puede ser con tasa compensada o sin tasa compensada.  También Otorgamos junto a entidades de derecho internacional, créditos directo con o sin tasa compensada en los que podamos convenir una participación en beneficio de las entidades territoriales para la financiación de proyectos de inversión en los sectores y subsectores elegibles de Findeter</p><br />
               <p  className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">Conforme a los establecido por el Gobierno Nacional en el decreto 468 de 2020, Findeter está autorizado a otorgar crédito directo a departamentos, municipios y distritos para financiar proyectos y actividades de inversión en los sectores y subsectores financiables por Findeter.</p>
               <div className="flex justify-center"><img
-                src="Sectores_0.png"
+                src="https://storage.googleapis.com/productos-f.appspot.com/Sectores_0.png"
                 width="800"
                 height="800"
                 alt="Sectores Credito Directo"
