@@ -42,7 +42,7 @@ export function CreditoDirecto2() {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+            <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
               <div className="grid gap-1">
               <img
                 src="https://storage.googleapis.com/productos-f.appspot.com/compromiso-reactivacion-colombia-2.jpg"
@@ -55,21 +55,15 @@ export function CreditoDirecto2() {
                 <p className="text-muted-foreground text-center">
                   Tasa Compensada.  Financiación de Proyectos y/o Gastos de Inversión.  <br/>Adicionamos $800.000 millones.
                 </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
-                    href="#"
+                    href="/compromiso-reactivacion-colombia-2"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Solicitar Crédito
+                    Ver Condiciones y requisitos
                   </Link>
-                  <Link
-                    href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
-                    prefetch={false}
-                  >
-                    Condiciones y requisitos
-                  </Link>
+                  
                 </div>
               </div>
               <div className="grid gap-1">
@@ -84,21 +78,15 @@ export function CreditoDirecto2() {
                 <p className="text-muted-foreground text-center">
                   Tasa Compensada. Apoyamos la actualización del Catastro Multipropósito para lograr metas y objetivos de los planes de desarrollo territorial. <br/>$87.415 millones.
                 </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
                     href="#"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Solicitar Crédito
+                    Ver Condiciones y requisitos
                   </Link>
-                  <Link
-                    href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
-                    prefetch={false}
-                  >
-                    Condiciones y requisitos
-                  </Link>
+                  
                 </div>
               </div><div className="grid gap-1">
               <img
@@ -112,21 +100,15 @@ export function CreditoDirecto2() {
                 <p className="text-muted-foreground text-center">
                   Inversiones estratégicas en electrificación, equipos y maquinaria, transporte especializado, infraestructura de transformación y desarrollo de vías terciarias.<br/>$100.000 millones.
                 </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
                     href="#"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Solicitar Crédito
+                    Ver Condiciones y requisitos
                   </Link>
-                  <Link
-                    href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
-                    prefetch={false}
-                  >
-                    Condiciones y requisitos
-                  </Link>
+                  
                 </div>
               </div>
               <div className="grid gap-1">
@@ -141,21 +123,15 @@ export function CreditoDirecto2() {
                 <p className="text-muted-foreground text-center">
                   Financiación de proyectos del sector energético.  Generación, comercialización, distribución, transmisión, alamcenamiento y capital de trabajo para reducir gases de efecto invernadero.<br/>$1.3 Billones.
                 </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
                     href="#"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Solicitar Crédito
+                    Ver Condiciones y requisitos
                   </Link>
-                  <Link
-                    href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
-                    prefetch={false}
-                  >
-                    Condiciones y requisitos
-                  </Link>
+                  
                 </div>
               </div>
               <div className="grid gap-1">
@@ -170,21 +146,15 @@ export function CreditoDirecto2() {
                 <p className="text-muted-foreground text-center">
                   Apoyamos a los distritos y municipios para que financien proyectos de inversión que permitan dinamizar sus economías, reactivar  la inversión publica y generar empleo. <br/> $50 mil millones.
                 </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
                     href="#"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Solicitar Crédito
+                    Ver Condiciones y requisitos
                   </Link>
-                  <Link
-                    href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
-                    prefetch={false}
-                  >
-                    Condiciones y requisitos
-                  </Link>
+                  
                 </div>
               </div>
               <div className="grid gap-1">
@@ -199,21 +169,15 @@ export function CreditoDirecto2() {
                 <p className="text-muted-foreground text-center">
                   Tasa Compensada.  Capital de trabajo o Liquidez a las Empresas de Distribución y Comercialización de Energía Mixtas o Privadas.  <br/>$1 Billón.
                 </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
                     href="#"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Solicitar Crédito
+                    Ver Condiciones y requisitos
                   </Link>
-                  <Link
-                    href="#"
-                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
-                    prefetch={false}
-                  >
-                    Condiciones y requisitos
-                  </Link>
+                  
                 </div>
               </div>
             </div>
