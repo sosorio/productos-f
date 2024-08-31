@@ -27,7 +27,7 @@ import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 
-export function CreditoDirecto2() {
+export function CreditoDirecto21() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <main className="flex-1">
@@ -199,7 +199,7 @@ export function CreditoDirecto2() {
               El Credito Directo significa que no tiene intermediario financiero, por lo cual permite obtener mejores tasas de interes.   Puede ser con tasa compensada o sin tasa compensada.  También Otorgamos junto a entidades de derecho internacional, créditos directo con o sin tasa compensada en los que podamos convenir una participación en beneficio de las entidades territoriales para la financiación de proyectos de inversión en los sectores y subsectores elegibles de Findeter</p><br />
               <p  className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">Conforme a los establecido por el Gobierno Nacional en el decreto 468 de 2020, Findeter está autorizado a otorgar crédito directo a departamentos, municipios y distritos para financiar proyectos y actividades de inversión en los sectores y subsectores financiables por Findeter.</p>
               <div className="flex justify-center"><img
-                src="Sectores_0.png"
+                src="https://storage.googleapis.com/productos-f.appspot.com/Sectores_0.png"
                 width="800"
                 height="800"
                 alt="Sectores Credito Directo"
