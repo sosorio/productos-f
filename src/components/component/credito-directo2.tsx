@@ -45,7 +45,7 @@ export function CreditoDirecto21() {
             <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="grid gap-1">
               <img
-                src="compromiso-reactivacion-colombia-2.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/compromiso-reactivacion-colombia-2.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -74,7 +74,7 @@ export function CreditoDirecto21() {
               </div>
               <div className="grid gap-1">
               <img
-                src="catastro-multiproposito.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/catastro-multiproposito.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -102,7 +102,7 @@ export function CreditoDirecto21() {
                 </div>
               </div><div className="grid gap-1">
               <img
-                src="inversion-rural.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/inversion-rural.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -131,7 +131,7 @@ export function CreditoDirecto21() {
               </div>
               <div className="grid gap-1">
               <img
-                src="eficiencia-energetica.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/eficiencia-energetica.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
@@ -160,7 +160,7 @@ export function CreditoDirecto21() {
               </div>
               <div className="grid gap-1">
               <img
-                src="compromiso-valle-del-cauca.jpg"
+                src="https://storage.googleapis.com/productos-f.appspot.com/compromiso-valle-del-cauca.jpg"
                 width="300"
                 height="306"
                 alt="Credito Directo"
