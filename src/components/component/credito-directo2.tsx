@@ -68,7 +68,7 @@ export function CreditoDirecto21() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export function CreditoDirecto21() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div><div className="grid gap-1">
@@ -125,7 +125,7 @@ export function CreditoDirecto21() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div>
@@ -154,7 +154,7 @@ export function CreditoDirecto21() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div>
@@ -183,7 +183,7 @@ export function CreditoDirecto21() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div>            </div>

@@ -68,7 +68,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div><div className="grid gap-1">
@@ -125,7 +125,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div>
@@ -154,7 +154,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
               </div>
@@ -183,10 +183,40 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
                     prefetch={false}
                   >
-                    Conocer más
+                    Condiciones y requisitos
                   </Link>
                 </div>
-              </div>            </div>
+              </div>
+              <div className="grid gap-1">
+              <img
+                src="https://storage.googleapis.com/productos-f.appspot.com/mitigacion-fenomeno-del-nino.jpg"
+                width="300"
+                height="306"
+                alt="Credito Directo"
+                className="mx-auto overflow-hidden rounded-xl object-bottom sm:w-full"
+              />
+                <h3 className="text-lg font-bold text-center">Mitigación Fenomeno del Niño.</h3>
+                <p className="text-muted-foreground text-center">
+                  Tasa Compensada.  Capital de trabajo o Liquidez a las Empresas de Distribución y Comercialización de Energía Mixtas o Privadas.  <br/>$1 Billón.
+                </p>
+                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                  <Link
+                    href="#"
+                    className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
+                    prefetch={false}
+                  >
+                    Solicitar Crédito
+                  </Link>
+                  <Link
+                    href="#"
+                    className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  text-center"
+                    prefetch={false}
+                  >
+                    Condiciones y requisitos
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 border-t">
