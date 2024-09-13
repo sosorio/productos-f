@@ -262,6 +262,8 @@ Solicitud de Vinculación de Crédito. </a>
         <h2 className="text-3xl py-5"><strong>Política de Cobranza</strong></h2>
         <Button className="btn"><a href="https://www.findeter.gov.co/productos-y-servicios/lineas-de-credito-directo/politicas-de-cartera-normalizacion-seguimiento" target="_blank">Consulte la política de cobranza, normatividad y seguimiento.</a></Button>
 
+        FIN
+
 
         </div>
 
