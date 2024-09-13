@@ -229,7 +229,7 @@ Solicitud de Vinculación de Crédito. </a>
         <li>Formularios de conocimiento ampliado para personas expuestas políticamente y públicamente (PEP) identificadas en las secciones IV y V (Consolidar en un solo archivo).<Button className="btn">
         Descargue el Formato
             </Button></li>
-        <li>Formulario de "Vinculación y Actualización - Crédito Directo", diligenciado.</li></ol>
+        <li>Formulario de Vinculación y Actualización - Crédito Directo, diligenciado.</li></ol>
         </div>
 
         <div className="mt-10 container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
