@@ -26,6 +26,7 @@ To read more about using these font, please visit the Next.js documentation:
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectGroup, SelectItem } from "@/components/ui/select"
 
 export function CompromisoReactivacionColombia() {
   return (
@@ -37,15 +38,27 @@ export function CompromisoReactivacionColombia() {
               Compromiso Reactivación colombia 2
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Línea de crédito directo con tasa compensada que busca apoyar a las Entidades Territoriales con recursos para aliviar la presión originada en la reducción de los ingresos causada por el Covid – 19 e impulsar la reactivación de la actividad económica en los territorios.  Vigencia de la Línea. Hasta agotar los recursos.
+            Línea de crédito directo con tasa compensada que busca apoyar a las Entidades Territoriales con recursos para impulsar la reactivación de la actividad económica en los territorios.
+
             </p>
           </div>
           <div className="space-y-4">
-            <h3 className="mt-10 text-2xl font-bold tracking-tighter sm:text-2xl md:text-2xl">
+            <h3 className="mt-5 text-3xl font-bold tracking-tighter sm:text-2xl md:text-2xl">
               Condiciones
             </h3>
-            <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            <strong>TASA: </strong></h4>
+            <h4 className="max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Beneficiarios: </strong></h4>
+            <ul className="space-y-4"><li className="list-disc">Entidades Territoriales: Departamentos, Distritos y Municipios
+            </li>
+            </ul>
+            <h4 className="max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Uso de los Recursos: </strong></h4>
+            <ul className="space-y-4"><li className="list-disc">Financiación de proyectos y/o gastos de inversión
+
+            </li>
+            </ul>
+            <h4 className="max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Tasa Final: </strong></h4>
             <ul className="space-y-4"><li className="list-disc">Municipios de categoría 3, 4, 5 y 6, Departamentos 3 y 4 y Distritos de categoría 3, 4, 5 y 6:
             IBR + 1,10% M.V. (Mensual Vencido) o IBR + 1,25% T.V. (Trimestral Vencido) o IBR + 1,45% S.V. (Semestral Vencido)</li>
             <li className="list-disc">Para distritos especiales 1 y 2, Departamentos Especiales y de categoría 1 y 2 y Municipios Especiales y de categoría 1 y 2:
@@ -53,34 +66,24 @@ export function CompromisoReactivacionColombia() {
             </ul>
           </div>
 
-
-                    <div className="mt-20">
-                        <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            <strong>Vigencia de la Línea: </strong></h4>
-            <p>Hasta agotar los recursos.</p>
-          </div>
           <div className="mt-20">
-                        <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        <h4 className="max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             <strong>Plazo total: </strong></h4>
             <p>Hasta diez (10) años con hasta 3 años de periodo de gracia a capital.</p>
           </div>
-          <div className="mt-20">
-                        <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            <strong>Beneficiarios: </strong></h4>
-            <p>Entidades Territoriales.</p>
-          </div>
-          <div className="mt-20">
-                        <h4 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            <strong>Uso de los recursos: </strong></h4>
-            <p>Financiación de proyectos y/o gastos de inversión.</p>
+
+                    <div className="mt-20">
+                        <h4 className="max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Vigencia de la Línea: </strong></h4>
+            <p>Hasta agotar los recursos.</p>
           </div>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4  bg-muted p-5">
           <div className="space-y-2">
-            <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">Solicitar Crédito</h2>
+            <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">Transforme Su Territorio Con Nosotros</h2>
             <p className="text-muted-foreground">
-            Uno de nuestros Gerentes de Cuenta se pondrá en contacto con usted.
-            Solicitudes únicamente para personas jurídicas.
+            Permítanos contactarlo para conocer sus necesidades y ayudarlo a cumplir sus planes de desarrollo. 
+
             </p>
           </div>
           <form className="space-y-4">
@@ -89,24 +92,180 @@ export function CompromisoReactivacionColombia() {
               <Input type="text" placeholder="Apellido" className="w-full" />
             </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <Input type="text" placeholder="Entidad" className="w-full" />
+              <Input type="text" placeholder="Cargo" className="w-full" />
+            </div>
+
+            <div className="grid gap-4">
+          <Select>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder="Tipo De Entidad" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectItem value="product1">Gobernación</SelectItem>
+                <SelectItem value="product2">Alcaldía</SelectItem>
+                <SelectItem value="service1">Empresa de Servicios Públicos</SelectItem>
+                <SelectItem value="service2">Otra</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
+        </div>
+
+
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <Input type="email" placeholder="Email" className="w-full" />
             <Input id="phone" type="tel" placeholder="Celular" />
             </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <Input type="text" placeholder="Municipio" className="w-full" />
-              <Input type="text" placeholder="Departamento" className="w-full" />
+            <Select>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder="Departamento" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectItem value="product1">Amazonas</SelectItem>
+                <SelectItem value="product2">Antioquia</SelectItem>
+                <SelectItem value="service1">Arauca</SelectItem>
+                <SelectItem value="service2">Atlántico</SelectItem>
+                <SelectItem value="service2">Bolivar</SelectItem>
+                <SelectItem value="service2">Boyacá</SelectItem>
+                <SelectItem value="service2">Caldas</SelectItem>
+                <SelectItem value="service2">Caquetá</SelectItem>
+                <SelectItem value="service2">Casanare</SelectItem>
+                <SelectItem value="service2">Cauca</SelectItem>
+                <SelectItem value="service2">Cesar</SelectItem>
+                <SelectItem value="service2">Chocó</SelectItem>
+                <SelectItem value="service2">Córdoba</SelectItem>
+                <SelectItem value="service2">Cundinamarca</SelectItem>
+                <SelectItem value="service2">Guainía</SelectItem>
+                <SelectItem value="service2">Guaviare</SelectItem>
+                <SelectItem value="service2">Huila</SelectItem>
+                <SelectItem value="service2">La Guajira</SelectItem>
+                <SelectItem value="service2">Magdalena</SelectItem>
+                <SelectItem value="service2">Meta</SelectItem>
+                <SelectItem value="service2">Nariño</SelectItem>
+                <SelectItem value="service2">Norte de Santander</SelectItem>
+                <SelectItem value="service2">Putumayo</SelectItem>
+                <SelectItem value="service2">Quindio</SelectItem>
+                <SelectItem value="service2">Risaralda</SelectItem>
+                <SelectItem value="service2">San Andrés y Providencia</SelectItem>
+                <SelectItem value="service2">Santander</SelectItem>
+                <SelectItem value="service2">Sucre</SelectItem>
+                <SelectItem value="service2">Tolima</SelectItem>
+                <SelectItem value="service2">Valle Del Cauca</SelectItem>
+                <SelectItem value="service2">Vaupes</SelectItem>
+                <SelectItem value="service2">Vichada</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
+          <Select>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder="Municipio" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectItem value="product1">Municipio 1</SelectItem>
+                <SelectItem value="product2">Municipio 2</SelectItem>
+                <SelectItem value="service1">Municipio 3</SelectItem>
+                <SelectItem value="service2">Municipio 4</SelectItem>
+                <SelectItem value="service2">Municipio 5</SelectItem>
+                <SelectItem value="service2">Municipio 6</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
             </div>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <Input type="text" placeholder="Entidad" className="w-full" />
-              <Input type="text" placeholder="Cargo" className="w-full" />
-            </div>
-            <Textarea placeholder="Para que necesita los recursos,  sector, costo estimado de la inversion." className="w-full" rows={4} />
+            <Textarea placeholder="Cuéntenos acerca de sus proyectos (costo estimado de la inversión, uso, sector, entre otros)" className="w-full" rows={4} />
             <Button type="submit" className="w-full">
               Iniciar Proceso
             </Button>
           </form>
+          <p className="text-sm">* Solicitudes únicamente para personas jurídicas.</p>
+          <p><strong>Caribe:</strong> 320 490 2593 / 301 754 8949 <br /> <strong>Noroccidental:</strong> 314 336 4910 / 316 345 4257<br /><strong>Nororiental:</strong> 321975 9881 / 320 490 2576<br /><strong>Eje Cafetero:</strong> 320 490 2594 / 322 523 8014<br /><strong>Pacífico:</strong> 314 682 4441 / 312 818 2460<br /><strong>Centro:</strong> 322 214 1371 / 315 333 8876<br />
+          <strong>Línea nacional gratuita:</strong> 01 8000 11 66 22 
+<br />Consulte el listado de gerentes de cuenta de Findeter
+</p>
         </div>
       </div>
+      <div className="mt-10 bg-muted container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
+        <h2 className="text-3xl py-5"><strong>Requisitos para la solicitud del crédito</strong></h2>
+        <Button className="btn w-full"><a href="https://www.findeter.gov.co/system/files/internas/Requisitos-Credito-Directo-Entidades-Territoriales-V1-2023.pdf" target="_blank">
+        Descargue aqui Los Requisitos y Documentos</a>
+            </Button>  
+
+        
+      <Button className="btn w-full">
+Descargue aquí la certificación de necesidad y del uso adecuado de los recursos solicitados. 
+            </Button>  
+
+
+        </div>
+
+        <div className="mt-10 container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
+        <h2 className="text-3xl py-5"><strong>¿Cómo Acceder a la Línea?</strong></h2>
+        <p>El Gobierno Nacional autorizó a Findeter para otorgar recursos de crédito directo con tasa compensada dirigido a financiar proyectos en los sectores elegibles para conjurar la crisis o impedir la extensión de sus efectos en el territorio nacional.</p>
+        <p>De esta forma, Findeter y el Gobierno Nacional apoyan a las gobernaciones y alcaldías a financiar proyectos encaminados a la reactivación económica y generación de empleo con el fin de conjurar los efectos del Covid – 19 y aliviar la presión originada en la reducción de sus ingresos.</p>
+        <Button className="btn w-full"><a href="https://www.findeter.gov.co/system/files/internas/Paso%20a%20paso%20Actualizado%20-%20Compromiso%20Reactivacio%CC%81n%20Tramo%202_0.pdf" target="_blank">
+        Paso a Paso</a>
+            </Button>  
+
+        
+      <Button className="btn w-full"><a href="https://a1clic.findeter.gov.co:8447/Home/Login" target="_blank">
+Solicitud de Vinculación de Crédito. </a>
+            </Button>  
+
+
+        </div>
+
+        <div className="mt-10 bg-muted container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
+        <h2 className="text-3xl py-5"><strong>Requisitos para la vinculación</strong></h2>
+        <ol className="list-decimal p-5"><li>Fotocopia del RUT</li>
+        <li>Fotocopia documento de identificación Representante Legal.</li>
+        <li>Fotocopia del acta de posesión del Representante Legal.</li>
+        <li>Estados financieros certificados del último cierre fiscal.</li>
+        <li>Certificado de cumplimiento de la Ley 1121 de 2006.<Button className="btn">
+        Descargue el Certificado
+            </Button></li>
+        <li>Formularios de conocimiento ampliado para personas expuestas políticamente y públicamente (PEP) identificadas en las secciones IV y V (Consolidar en un solo archivo).<Button className="btn">
+        Descargue el Formato
+            </Button></li>
+        <li>Formulario de "Vinculación y Actualización - Crédito Directo", diligenciado.</li></ol>
+        </div>
+
+        <div className="mt-10 container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
+        <h2 className="text-3xl py-5"><strong>Garantías</strong></h2>
+        <p>Pignoración de las rentas del municipio, distrito, departamento que sean admisibles para los créditos directos otorgados por Findeter.</p>
+        <h3 className="text-2xl">Cobertura de las garantías:</h3>
+        <p>Findeter exigirá la pignoración de las rentas mínimo por el equivalente al 130% del servicio anual de la deuda (incluido capital e intereses), durante la vigencia del crédito directo. Si las rentas dadas en prenda disminuyeran de tal forma que no alcancen a cubrir el 130% del servicio anual, Findeter exigirá al municipio, distrito, departamento sustituir, reemplazar o complementar las rentas pignoradas.</p>
+
+
+        </div>
+
+        <div className="mt-10 bg-muted container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
+        <h2 className="text-3xl py-5"><strong>Documentos de Interés</strong></h2>
+        <p className="text-2xl"><strong>Decretos:</strong></p>
+        <ul className="list-disc p-5"><li>Decreto 417 del 17 de marzo de 2020</li>
+        <li>Decreto 444 del 21 de marzo de 2020</li>
+        <li>Decreto 468 del 23 de marzo de 2020</li>
+        <li>Decreto 473 del 25 de marzo 2020</li>
+        <li>Decreto 637 del 6 de mayo 2020.</li>
+        <li>Decreto 678 del 20 de mayo de 2020</li>
+   </ul>
+   <p className="text-2xl"><strong>Circulares:</strong></p>
+        <ul className="list-disc p-5"><li>Circular Externa 17 Compromiso Reactivación Tramo 2</li>
+        <li>Alcance Circular Externa No. 01 Compromiso Reactivación Tramo 2</li>
+        <li>Circular Externa No. 14 Adición de recursos a la Línea Reactivación Tramo 2</li>
+   </ul>
+        </div>
+
+        <div className="mt-10 container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
+        <h2 className="text-3xl py-5"><strong>Política de Cobranza</strong></h2>
+        <Button className="btn"><a href="https://www.findeter.gov.co/productos-y-servicios/lineas-de-credito-directo/politicas-de-cartera-normalizacion-seguimiento" target="_blank">Consulte la política de cobranza, normatividad y seguimiento.</a></Button>
+
+
+        </div>
+
+
     </div>
   )
 }

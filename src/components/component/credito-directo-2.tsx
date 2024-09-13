@@ -37,8 +37,8 @@ export function CreditoDirecto2() {
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">Líneas de Crédito Directo</h1>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Crédito sin intermediarios financieros con y sin tasa compensada, dirigido a Entidades Territoriales
-                    como Gobernaciones, Alcaldías y Entidades Públicas para proyectos en los 12 sectores estratégicos.
+                Ideal para financiar, con tasa compensada, la actualización catastral para lograr las metas y objetivos de los planes de desarrollo. 
+
                 </p>
               </div>
             </div>
@@ -53,7 +53,7 @@ export function CreditoDirecto2() {
               />
                 <h3 className="text-lg font-bold text-center">Compromiso Reactivación Colombia Tramo 2</h3>
                 <p className="text-muted-foreground text-center">
-                  Tasa Compensada.  Financiación de Proyectos y/o Gastos de Inversión.  <br/>Adicionamos $800.000 millones.
+                Línea mixta para inversiones en proyectos de transición energética y financiación para capital de trabajo que genere mitigación de gases de efectos invernadero.
                 </p>
                 <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
@@ -61,7 +61,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Ver Condiciones y requisitos
+                    Condiciones y requisitos
                   </Link>
                   
                 </div>
@@ -74,9 +74,9 @@ export function CreditoDirecto2() {
                 alt="Credito Directo"
                 className="mx-auto overflow-hidden rounded-xl object-bottom sm:w-full"
               />
-                <h3 className="text-lg font-bold text-center">Catastro Multipropósito.</h3>
+                <h3 className="text-lg font-bold text-center">Compromiso Catastro Multipropósito.</h3>
                 <p className="text-muted-foreground text-center">
-                  Tasa Compensada. Apoyamos la actualización del Catastro Multipropósito para lograr metas y objetivos de los planes de desarrollo territorial. <br/>$87.415 millones.
+                Ideal para financiar, con tasa compensada, la actualización catastral para lograr las metas y objetivos de los planes de desarrollo.
                 </p>
                 <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
@@ -84,7 +84,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Ver Condiciones y requisitos
+                    Condiciones y requisitos
                   </Link>
                   
                 </div>
@@ -96,9 +96,9 @@ export function CreditoDirecto2() {
                 alt="Credito Directo"
                 className="mx-auto overflow-hidden rounded-xl object-bottom sm:w-full"
               />
-                <h3 className="text-lg font-bold text-center">Inversión Rural</h3>
+                <h3 className="text-lg font-bold text-center">Inversión rural, impulsando el progreso de las regiones.</h3>
                 <p className="text-muted-foreground text-center">
-                  Inversiones estratégicas en electrificación, equipos y maquinaria, transporte especializado, infraestructura de transformación y desarrollo de vías terciarias.<br/>$100.000 millones.
+                Inversiones relacionadas con paneles solares, maquinaria amarilla y transporte especializado que impacten regiones rurales.
                 </p>
                 <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
@@ -106,7 +106,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Ver Condiciones y requisitos
+                    Condiciones y requisitos
                   </Link>
                   
                 </div>
@@ -119,9 +119,10 @@ export function CreditoDirecto2() {
                 alt="Credito Directo"
                 className="mx-auto overflow-hidden rounded-xl object-bottom sm:w-full"
               />
-                <h3 className="text-lg font-bold text-center">Eficiencia Energética</h3>
+                <h3 className="text-lg font-bold text-center">Compromiso Eficiencia Energética y Conectividad Virtual</h3>
                 <p className="text-muted-foreground text-center">
-                  Financiación de proyectos del sector energético.  Generación, comercialización, distribución, transmisión, alamcenamiento y capital de trabajo para reducir gases de efecto invernadero.<br/>$1.3 Billones.
+                Línea mixta para inversiones en proyectos de transición energética y financiación para capital de trabajo que genere mitigación de gases de efectos invernadero.
+
                 </p>
                 <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
@@ -129,7 +130,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Ver Condiciones y requisitos
+                    Condiciones y requisitos
                   </Link>
                   
                 </div>
@@ -144,7 +145,7 @@ export function CreditoDirecto2() {
               />
                 <h3 className="text-lg font-bold text-center">Compromiso Valle Del Cauca</h3>
                 <p className="text-muted-foreground text-center">
-                  Apoyamos a los distritos y municipios para que financien proyectos de inversión que permitan dinamizar sus economías, reactivar  la inversión publica y generar empleo. <br/> $50 mil millones.
+                Junto a la gobernación, apoyamos a los municipios del departamento para que financien proyectos de inversión que dinamicen su economía, reactiven el tejido social y generen empleo.
                 </p>
                 <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
@@ -152,7 +153,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Ver Condiciones y requisitos
+                    Condiciones y requisitos
                   </Link>
                   
                 </div>
@@ -165,9 +166,12 @@ export function CreditoDirecto2() {
                 alt="Credito Directo"
                 className="mx-auto overflow-hidden rounded-xl object-bottom sm:w-full"
               />
-                <h3 className="text-lg font-bold text-center">Mitigación Fenomeno del Niño.</h3>
+                <h3 className="text-lg font-bold text-center">Compromiso Mitigación Fenómeno del Niño
+                </h3>
                 <p className="text-muted-foreground text-center">
-                  Tasa Compensada.  Capital de trabajo o Liquidez a las Empresas de Distribución y Comercialización de Energía Mixtas o Privadas.  <br/>$1 Billón.
+                Con tasa compensada financiamos capital de trabajo y liquidez a las Empresas de Distribución y Comercialización de Energía Eléctrica que hayan aplicado a la opción tarifaria establecida por la CREG.
+
+
                 </p>
                 <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row">
                   <Link
@@ -175,7 +179,7 @@ export function CreditoDirecto2() {
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-center"
                     prefetch={false}
                   >
-                    Ver Condiciones y requisitos
+                    Condiciones y requisitos
                   </Link>
                   
                 </div>
@@ -197,15 +201,23 @@ export function CreditoDirecto2() {
                 className="center mx-auto overflow-hidden rounded-xl object-bottom"
               /></div>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              El Credito Directo significa que no tiene intermediario financiero, por lo cual permite obtener mejores tasas de interes.   Puede ser con tasa compensada o sin tasa compensada.  También Otorgamos junto a entidades de derecho internacional, créditos directo con o sin tasa compensada en los que podamos convenir una participación en beneficio de las entidades territoriales para la financiación de proyectos de inversión en los sectores y subsectores elegibles de Findeter</p><br />
+              Findeter ofrece <strong>crédito directo</strong> a departamentos, municipios y distritos para financiar proyectos en <strong>sectores estratégicos</strong>, que mejoren la calidad de vida en las regiones, conforme a lo establecido por el Gobierno Nacional en el Decreto 468 de 2020. A diferencia del crédito de redescuento, <strong>no requiere</strong> la participación de intermediarios financieros. El desembolso de los recursos se realizará después de la evaluación de la solicitud y aprobación de garantías. 
+Las líneas de crédito directo pueden incluir tasas compensadas que permiten <strong>obtener mejores tasas de interés</strong>. 
+</p><br />
               <p  className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">Conforme a los establecido por el Gobierno Nacional en el decreto 468 de 2020, Findeter está autorizado a otorgar crédito directo a departamentos, municipios y distritos para financiar proyectos y actividades de inversión en los sectores y subsectores financiables por Findeter.</p>
-              <div className="flex justify-center"><img
-                src="https://storage.googleapis.com/productos-f.appspot.com/Sectores_0.png"
-                width="800"
-                height="800"
-                alt="Sectores Credito Directo"
-                className="center mx-auto w-full overflow-hidden rounded-xl object-bottom"
-              /></div>
+              <ol  className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"><li>Transporte</li>
+Salud
+Desarrollo urbano y vivienda
+Educación 
+Minero energético
+Industria creativa y cultural
+Medio Ambiente
+Telecomunicaciones 
+Agua potable y saneamiento básico
+Saneamiento Fiscal
+Turismo
+Deporte y recreación 
+</ol>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               <strong>Crédito directo con tasa compensada para Covid – 19:</strong>
  
