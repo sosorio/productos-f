@@ -37,8 +37,7 @@ export function CreditoDirecto2() {
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">Líneas de Crédito Directo</h1>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Ideal para financiar, con tasa compensada, la actualización catastral para lograr las metas y objetivos de los planes de desarrollo. 
-
+                Findeter otorga crédito directo, sin intermediarios financieros, a departamentos, municipios y distritos, para financiar proyectos en 12 sectores estratégicos.
                 </p>
               </div>
             </div>
@@ -188,7 +187,7 @@ export function CreditoDirecto2() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 border-t">
-          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
+          <div className="container grid items-center justify-center  gap-4 px-4 md:px-6 lg:gap-10">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 ¿Como funciona el Crédito Directo?
@@ -201,23 +200,58 @@ export function CreditoDirecto2() {
                 className="center mx-auto overflow-hidden rounded-xl object-bottom"
               /></div>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Findeter ofrece <strong>crédito directo</strong> a departamentos, municipios y distritos para financiar proyectos en <strong>sectores estratégicos</strong>, que mejoren la calidad de vida en las regiones, conforme a lo establecido por el Gobierno Nacional en el Decreto 468 de 2020. A diferencia del crédito de redescuento, <strong>no requiere</strong> la participación de intermediarios financieros. El desembolso de los recursos se realizará después de la evaluación de la solicitud y aprobación de garantías. 
+              Findeter ofrece <strong>crédito directo</strong> a departamentos, municipios y distritos para financiar proyectos en <strong>sectores estratégicos</strong>, que mejoren la calidad de vida en las regiones, conforme a lo establecido por el Gobierno Nacional en el Decreto 468 de 2020. A diferencia del crédito de redescuento, <strong>no requiere</strong> la participación de intermediarios financieros. El <strong>desembolso</strong> de los recursos se realizará después de la evaluación de la solicitud y aprobación de garantías. <br /> 
 Las líneas de crédito directo pueden incluir tasas compensadas que permiten <strong>obtener mejores tasas de interés</strong>. 
 </p><br />
-              <p  className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">Conforme a los establecido por el Gobierno Nacional en el decreto 468 de 2020, Findeter está autorizado a otorgar crédito directo a departamentos, municipios y distritos para financiar proyectos y actividades de inversión en los sectores y subsectores financiables por Findeter.</p>
-              <ol  className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"><li>Transporte</li>
-Salud
-Desarrollo urbano y vivienda
-Educación 
-Minero energético
-Industria creativa y cultural
-Medio Ambiente
-Telecomunicaciones 
-Agua potable y saneamiento básico
-Saneamiento Fiscal
-Turismo
-Deporte y recreación 
-</ol>
+              <div className="bg-muted">
+                <h3 className="text-3xl ml-5 pt-5"><strong>Sectores de la economía.</strong></h3><p  className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">En Findeter acompañamos proyectos con el fín social en 12 sectores de la economía a través de financiación y asistencia técnica.</p>
+              <ol  className="p-5 list-decimal mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"><li>Transporte
+                <ol className="list-disc ml-10"><li><strong>Vial:</strong> Red primaria, secundaria y terciaria de carreteras.
+Señalización de vías y redes de ayuda.
+Vías urbanas
+Semaforización y señalización de vías urbanas 
+Industria vial (industrias asociadas al transporte vial)
+</li>
+                <li><strong>Férreo:</strong> Puertos férreos
+Vías férreas
+Industria férrea (industrias asociadas al transporte férreo)
+
+                </li>
+                <li><strong>Fluvial:</strong> Puertos fluviales
+Canales fluviales
+Industria fluvial (industrias asociadas al transporte fluvial)
+
+                </li>
+                <li><strong>Aéreo:</strong> Terminales de transporte aéreo (incluyendo pistas)
+Industria aeronáutica (industrias asociadas al transporte aéreo)
+</li>
+                <li><strong>Marítimo</strong></li>
+                <li><strong>Transporte urbano, carga y pasajeros</strong>
+</li></ol>
+              </li>
+              <li>Salud</li>
+              <li>Desarrollo urbano y vivienda</li>
+              <li>Educación </li>
+              <li>Minero energético</li>
+              <li>Industria creativa y cultural</li>
+              <li>Medio Ambiente</li>
+              <li>Telecomunicaciones </li>
+              <li>Agua potable y saneamiento básico</li>
+              <li>Saneamiento Fiscal</li>
+              <li>Turismo</li>
+              <li>Deporte y recreación</li>
+
+
+
+
+
+
+
+
+
+
+ 
+</ol></div>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               <strong>Crédito directo con tasa compensada para Covid – 19:</strong>
  

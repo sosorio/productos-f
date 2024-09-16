@@ -196,7 +196,9 @@ export function CreditoDirecto21() {
                 ¿Como funciona el Crédito Directo?
               </h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              El Credito Directo significa que no tiene intermediario financiero, por lo cual permite obtener mejores tasas de interes.   Puede ser con tasa compensada o sin tasa compensada.  También Otorgamos junto a entidades de derecho internacional, créditos directo con o sin tasa compensada en los que podamos convenir una participación en beneficio de las entidades territoriales para la financiación de proyectos de inversión en los sectores y subsectores elegibles de Findeter</p><br />
+              Findeter ofrece crédito directo a departamentos, municipios y distritos para financiar proyectos en sectores estratégicos, que mejoren la calidad de vida en las regiones, conforme a lo establecido por el Gobierno Nacional en el Decreto 468 de 2020. A diferencia del crédito de redescuento, no requiere la participación de intermediarios financieros. El desembolso de los recursos se realizará después de la evaluación de la solicitud y aprobación de garantías. 
+Las líneas de crédito directo pueden incluir tasas compensadas que permiten obtener mejores tasas de interés. 
+</p><br />
               <p  className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">Conforme a los establecido por el Gobierno Nacional en el decreto 468 de 2020, Findeter está autorizado a otorgar crédito directo a departamentos, municipios y distritos para financiar proyectos y actividades de inversión en los sectores y subsectores financiables por Findeter.</p>
               <div className="flex justify-center"><img
                 src="https://storage.googleapis.com/productos-f.appspot.com/Sectores_0.png"

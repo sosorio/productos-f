@@ -35,7 +35,7 @@ export function CompromisoReactivacionColombia() {
         <div className="space-y-1">
           <div className="space-y-1">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Compromiso Reactivación colombia 2
+              Compromiso Reactivación Colombia II
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Línea de crédito directo con tasa compensada que busca apoyar a las Entidades Territoriales con recursos para impulsar la reactivación de la actividad económica en los territorios.
@@ -103,10 +103,9 @@ export function CompromisoReactivacionColombia() {
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
-                <SelectItem value="product1">Gobernación</SelectItem>
-                <SelectItem value="product2">Alcaldía</SelectItem>
-                <SelectItem value="service1">Empresa de Servicios Públicos</SelectItem>
-                <SelectItem value="service2">Otra</SelectItem>
+                <SelectItem value="product1">Privada</SelectItem>
+                <SelectItem value="product2">Pública</SelectItem>
+                <SelectItem value="service1">Mixta</SelectItem>
               </SelectGroup>
             </SelectContent>
           </Select>
@@ -189,12 +188,12 @@ export function CompromisoReactivacionColombia() {
       </div>
       <div className="mt-10 bg-muted container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
         <h2 className="text-3xl py-5"><strong>Requisitos para la solicitud del crédito</strong></h2>
-        <Button className="btn w-full"><a href="https://www.findeter.gov.co/system/files/internas/Requisitos-Credito-Directo-Entidades-Territoriales-V1-2023.pdf" target="_blank">
+        <Button className="btn"><a href="https://www.findeter.gov.co/system/files/internas/Requisitos-Credito-Directo-Entidades-Territoriales-V1-2023.pdf" target="_blank">
         Descargue aqui Los Requisitos y Documentos</a>
             </Button>  
 
         
-      <Button className="btn w-full">
+      <Button className="btn">
 Descargue aquí la certificación de necesidad y del uso adecuado de los recursos solicitados. 
             </Button>  
 
