@@ -27,7 +27,7 @@ export function check() {
     <Card>
       <CardHeader>
         <CardTitle>Choose your product</CardTitle>
-        <CardDescription>Select the product or service you're interested in.</CardDescription>
+        <CardDescription>Select the product or service youre interested in.</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="grid gap-4">
