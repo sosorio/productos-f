@@ -194,15 +194,15 @@ export function CompromisoReactivacionColombia() {
       </div>
       <div className="mt-10 bg-muted container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
         <h2 className="text-3xl py-5"><strong>Requisitos para la solicitud del crédito</strong></h2>
-        <Button className="btn"><a href="https://www.findeter.gov.co/system/files/internas/Requisitos-Credito-Directo-Entidades-Territoriales-V1-2023.pdf" target="_blank">
+        <div className="text-center"><Button><a href="https://www.findeter.gov.co/system/files/internas/Requisitos-Credito-Directo-Entidades-Territoriales-V1-2023.pdf" target="_blank">
         Descargue aqui Los Requisitos y Documentos</a>
-            </Button>  
+            </Button>  <br /><br />
 
         
       <Button className="btn">
 Descargue aquí la certificación de necesidad y del uso adecuado de los recursos solicitados. 
             </Button>  
-
+            </div>
 
         </div>
 
@@ -210,15 +210,15 @@ Descargue aquí la certificación de necesidad y del uso adecuado de los recurso
         <h2 className="text-3xl py-5"><strong>¿Cómo Acceder a la Línea?</strong></h2>
         <p>El Gobierno Nacional autorizó a Findeter para otorgar recursos de crédito directo con tasa compensada dirigido a financiar proyectos en los sectores elegibles para conjurar la crisis o impedir la extensión de sus efectos en el territorio nacional.</p>
         <p>De esta forma, Findeter y el Gobierno Nacional apoyan a las gobernaciones y alcaldías a financiar proyectos encaminados a la reactivación económica y generación de empleo con el fin de conjurar los efectos del Covid – 19 y aliviar la presión originada en la reducción de sus ingresos.</p>
-        <Button className="btn w-full"><a href="https://www.findeter.gov.co/system/files/internas/Paso%20a%20paso%20Actualizado%20-%20Compromiso%20Reactivacio%CC%81n%20Tramo%202_0.pdf" target="_blank">
+        <div className="text-center"><Button className="btn"><a href="https://www.findeter.gov.co/system/files/internas/Paso%20a%20paso%20Actualizado%20-%20Compromiso%20Reactivacio%CC%81n%20Tramo%202_0.pdf" target="_blank">
         Paso a Paso</a>
-            </Button>  
+            </Button>  <br /><br />
 
         
-      <Button className="btn w-full"><a href="https://a1clic.findeter.gov.co:8447/Home/Login" target="_blank">
+      <Button className="btn"><a href="https://a1clic.findeter.gov.co:8447/Home/Login" target="_blank">
 Solicitud de Vinculación de Crédito. </a>
             </Button>  
-
+            </div>
 
         </div>
 
@@ -265,7 +265,7 @@ Solicitud de Vinculación de Crédito. </a>
 
         <div className="mt-10 container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
         <h2 className="text-3xl py-5"><strong>Política de Cobranza</strong></h2>
-        <Button className="btn"><a href="https://www.findeter.gov.co/productos-y-servicios/lineas-de-credito-directo/politicas-de-cartera-normalizacion-seguimiento" target="_blank">Consulte la política de cobranza, normatividad y seguimiento.</a></Button>
+        <div className="text-center"><Button className="btn"><a href="https://www.findeter.gov.co/productos-y-servicios/lineas-de-credito-directo/politicas-de-cartera-normalizacion-seguimiento" target="_blank">Consulte la política de cobranza, normatividad y seguimiento.</a></Button></div>
 
         FIN
 
