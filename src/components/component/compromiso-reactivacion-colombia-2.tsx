@@ -27,6 +27,8 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectGroup, SelectItem } from "@/components/ui/select"
+import { Checkbox } from "@/components/ui/checkbox"
+import { Label } from "@/components/ui/label"
 
 export function CompromisoReactivacionColombia() {
   return (
@@ -175,6 +177,10 @@ export function CompromisoReactivacionColombia() {
           </Select>
             </div>
             <Textarea placeholder="Cuéntenos acerca de sus proyectos (costo estimado de la inversión, uso, sector, entre otros)" className="w-full" rows={4} />
+            <div className="flex items-center space-x-2">
+            <Checkbox id="terms" />
+            <Label htmlFor="terms">Acepta nuestros terminos y condiciones.</Label>
+          </div>
             <Button type="submit" className="w-full">
               Iniciar Proceso
             </Button>
