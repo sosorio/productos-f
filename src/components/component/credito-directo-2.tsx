@@ -25,7 +25,13 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectGroup, SelectItem } from "@/components/ui/select"
+import { Checkbox } from "@/components/ui/checkbox"
+import { Label } from "@/components/ui/label"
+
+
 
 export function CreditoDirecto2() {
   return (
@@ -34,6 +40,9 @@ export function CreditoDirecto2() {
         <section className="w-full py-12 md:py-4 lg:py-12 bg-muted">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div><h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-4xl">
+              ¿Qué es crédito directo?
+              </h2><p className="py-5 max-w-[900px]  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">Es la modalidad mediante la cual Findeter otorga créditos sin intermediación de bancos comerciales a entidades territoriales con o sin tasa compensada y dirigidos a financiar proyectos y actividades en 12 sectores estratégicos.</p></div>
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">Líneas de Crédito Directo</h1>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -229,7 +238,7 @@ Industria aeronáutica (industrias asociadas al transporte aéreo)
                 <li><strong>Transporte urbano, carga y pasajeros</strong>
 </li></ol>
               </li>
-              <li>Salud</li>
+              <li>PENDIENTE AJUSTE OTROS SUBSECTORES Salud</li>
               <li>Desarrollo urbano y vivienda</li>
               <li>Educación </li>
               <li>Minero energético</li>
@@ -253,24 +262,119 @@ Industria aeronáutica (industrias asociadas al transporte aéreo)
  
 </ol></div>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              <strong>Crédito directo con tasa compensada para Covid – 19:</strong>
+              <strong>Circulares externas:</strong>
  
 
- Otorgamos créditos directos con tasa compensada, dirigidos a financiar proyectos y actividades en los sectores elegibles para mitigar la crisis ocasionada por el Covid -19, impedir la extensión de sus efectos en el territorio nacional, atender la demanda actual de recursos para la reactivación económica y mantener la operación y gestión de las entidades territoriales.
- 
-  
- Crédito directo con tasa compensada:
-  
- 
- Otorgamos créditos directos con tasa compensada, prioritariamente a las entidades territoriales para la financiación de proyectos de inversión en los sectores y subsectores elegibles de Findeter. 
- 
-  
- 
- Crédito directo sindicado con o sin tasa compensada:
-  
- 
- Otorgamos junto a entidades de derecho internacional, créditos directo con o sin tasa compensada en los que podamos convenir una participación en beneficio de las entidades territoriales para la financiación de proyectos de inversión en los sectores y subsectores elegibles de Findeter.
+ TEXTO CIRCULARES EXTERNAS POR DEFINIR.
               </p>
+              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              <strong>Reglamento de Crédito Directo:</strong>
+ 
+
+ TEXTO REGLAMENTO CREDITO DIRECTO.
+              </p>
+              <h2 className="pt-10 text-2xl font-bold tracking-tighter sm:text-3xl">Transforme Su Territorio Con Nosotros</h2>
+            <p className="text-muted-foreground">
+            Permítanos contactarlo para conocer sus necesidades y ayudarlo a cumplir sus planes de desarrollo. 
+
+            </p>
+              <form className="space-y-4">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <Input type="text" placeholder="Nombre" className="w-full" />
+              <Input type="text" placeholder="Apellido" className="w-full" />
+            </div>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <Input type="text" placeholder="Entidad" className="w-full" />
+              <Input type="text" placeholder="Cargo" className="w-full" />
+            </div>
+
+            <div className="grid gap-4">
+          <Select>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder="Tipo De Entidad" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectItem value="product1">Privada</SelectItem>
+                <SelectItem value="product2">Pública</SelectItem>
+                <SelectItem value="service1">Mixta</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
+        </div>
+
+
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <Input type="email" placeholder="Email" className="w-full" />
+            <Input id="phone" type="tel" placeholder="Celular" />
+            </div>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <Select>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder="Departamento" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectItem value="product1">Amazonas</SelectItem>
+                <SelectItem value="product2">Antioquia</SelectItem>
+                <SelectItem value="service1">Arauca</SelectItem>
+                <SelectItem value="service2">Atlántico</SelectItem>
+                <SelectItem value="service2">Bolivar</SelectItem>
+                <SelectItem value="service2">Boyacá</SelectItem>
+                <SelectItem value="service2">Caldas</SelectItem>
+                <SelectItem value="service2">Caquetá</SelectItem>
+                <SelectItem value="service2">Casanare</SelectItem>
+                <SelectItem value="service2">Cauca</SelectItem>
+                <SelectItem value="service2">Cesar</SelectItem>
+                <SelectItem value="service2">Chocó</SelectItem>
+                <SelectItem value="service2">Córdoba</SelectItem>
+                <SelectItem value="service2">Cundinamarca</SelectItem>
+                <SelectItem value="service2">Guainía</SelectItem>
+                <SelectItem value="service2">Guaviare</SelectItem>
+                <SelectItem value="service2">Huila</SelectItem>
+                <SelectItem value="service2">La Guajira</SelectItem>
+                <SelectItem value="service2">Magdalena</SelectItem>
+                <SelectItem value="service2">Meta</SelectItem>
+                <SelectItem value="service2">Nariño</SelectItem>
+                <SelectItem value="service2">Norte de Santander</SelectItem>
+                <SelectItem value="service2">Putumayo</SelectItem>
+                <SelectItem value="service2">Quindio</SelectItem>
+                <SelectItem value="service2">Risaralda</SelectItem>
+                <SelectItem value="service2">San Andrés y Providencia</SelectItem>
+                <SelectItem value="service2">Santander</SelectItem>
+                <SelectItem value="service2">Sucre</SelectItem>
+                <SelectItem value="service2">Tolima</SelectItem>
+                <SelectItem value="service2">Valle Del Cauca</SelectItem>
+                <SelectItem value="service2">Vaupes</SelectItem>
+                <SelectItem value="service2">Vichada</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
+          <Select>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder="Municipio" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectItem value="product1">Municipio 1</SelectItem>
+                <SelectItem value="product2">Municipio 2</SelectItem>
+                <SelectItem value="service1">Municipio 3</SelectItem>
+                <SelectItem value="service2">Municipio 4</SelectItem>
+                <SelectItem value="service2">Municipio 5</SelectItem>
+                <SelectItem value="service2">Municipio 6</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
+            </div>
+            <Textarea placeholder="Cuéntenos acerca de sus proyectos (costo estimado de la inversión, uso, sector, entre otros)" className="w-full" rows={4} />
+            <div className="flex items-center space-x-2">
+            <Checkbox id="terms" />
+            <Label htmlFor="terms">Acepta nuestros terminos y condiciones.</Label>
+          </div>
+            <Button type="submit" className="w-full">
+              Enviar
+            </Button>
+          </form>
             </div>
 
           </div>

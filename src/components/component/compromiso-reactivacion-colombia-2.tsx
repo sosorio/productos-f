@@ -223,6 +223,11 @@ Solicitud de Vinculación de Crédito. </a>
         </div>
 
         <div className="mt-10 bg-muted container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
+        <h2 className="text-3xl py-5"><strong>Requisitos para solicitud de crédito</strong></h2>
+        <ol className="list-decimal p-5">
+        <li>Descargable de requisitos y documentos</li>
+        <li>Descargable de certificación de ecesidad y uso.</li></ol>
+
         <h2 className="text-3xl py-5"><strong>Requisitos para la vinculación</strong></h2>
         <ol className="list-decimal p-5"><li>Fotocopia del RUT</li>
         <li>Fotocopia documento de identificación Representante Legal.</li>
@@ -266,6 +271,10 @@ Solicitud de Vinculación de Crédito. </a>
         <div className="mt-10 container grid gap-8 px-4 md:grid-cols-1 md:gap-12 md:px-6">
         <h2 className="text-3xl py-5"><strong>Política de Cobranza</strong></h2>
         <div className="text-center"><Button className="btn"><a href="https://www.findeter.gov.co/productos-y-servicios/lineas-de-credito-directo/politicas-de-cartera-normalizacion-seguimiento" target="_blank">Consulte la política de cobranza, normatividad y seguimiento.</a></Button></div>
+
+        <div>FALTA INFORMACION CARROUSEL PROYECTOS EXITOSOS.</div>
+
+        
 
         FIN
 
